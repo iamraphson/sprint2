@@ -1,6 +1,7 @@
 
 var app = angular.module('mean-boilerplate', [
-	'ui.router'
+	'ui.router',
+	'ngFileUpload'
 ]);
 
 app.config(function($stateProvider, $urlRouterProvider){
