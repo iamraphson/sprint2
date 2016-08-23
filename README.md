@@ -1,9 +1,21 @@
 mean-starter
 =====
 
-> This is a lightweight starter boilerplate for getting started with MEAN stack apps (MongoDB, Express, Angular, Node.js). In it you can configure environment variables, define models and set up api routes. It is lightweight and much easier to grok than mean.io or mean.js.
+### for .csv upload:
 
-> If you are looking for a solution for authentication check out [this repo](https://github.com/cleechtech/node-jwt-intro).
+ng-file-upload - https://github.com/danialfarid/ng-file-upload/wiki/Node-example
+
+multer - https://github.com/expressjs/multer
+
+connect - multiparty - https://github.com/expressjs/connect-multiparty
+
+### for csv read
+
+```
+```
+
+
+
 
 ### Getting started
 ```

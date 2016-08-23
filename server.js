@@ -2,6 +2,7 @@
 var express = require('express'),
 	mongoose = require('mongoose'),
 	bodyParser = require('body-parser'),
+	multer = require('multer'),
 	cookieParser = require('cookie-parser'),
     methodOverride = require('method-override'),
 	cors = require('cors'),
@@ -19,6 +20,9 @@ mongoose.connect(envConfig.db);
 // EXPRESS CONFIG
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(multer({
+//     dest: “./uploads/”
+// }));
 app.use(cors());
 app.use(methodOverride());
 app.use(cookieParser());
